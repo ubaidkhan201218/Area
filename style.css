@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+}
+.navbar{
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+button{
+    border: 25px;
+    background-color: rgb(33, 61, 33);
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    padding-left:9px ;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+button:hover{
+    background-color: lightgreen;
+}
+
+#bro{
+    font-size: 80px;
+    text-align: center;
+}
+
+#div1{
+    height: 80vh;
+    width: 1300px;
+    background-color: black;
+    background-image: url(pngfile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.logos{
+    background-image: url(logos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 1200px;
+}
